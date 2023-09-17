@@ -11,7 +11,7 @@ public:
                break;
             }
         }
-        if(miss!= -1)
+        if(miss != -1)
         {
             return miss;
         }
