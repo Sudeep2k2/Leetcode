@@ -1,7 +1,6 @@
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
-        // vector <int> num1c = {0};
         int i = m-1,j = n-1, k = m+n-1;
         while(j>=0)
         {
